@@ -20,6 +20,17 @@
     </head>
     
     <body>
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
     
     <!-- ***** Preloader Start ***** -->
     <div id="js-preloader" class="js-preloader">
@@ -50,9 +61,6 @@
                             <li><a href="fleet.html">Fleet</a></li>
                             <li><a href="offers.html">Offers</a></li>
                             <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                                <img class="access-button" data-src="assets/component-ac.png" alt="Conteúdo acessível em libras usando o VLibras Widget com opções dos Avatares Ícaro ou Hozana." src="https://vlibras.gov.br/app2/assets/component-ac.png">
-                                <div class="dropdown-menu">
                                     <a class="dropdown-item" href="about.html">About Us</a>
                                     <a class="dropdown-item" href="blog.html">Blog</a>
                                     <a class="dropdown-item" href="team.html">Team</a>
